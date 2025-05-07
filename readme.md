@@ -32,9 +32,12 @@ This project uses machine learning to predict car prices based on a variety of f
 
 ## 📈 Model Performance
 
-After training a linear regression model:
-- **R-squared** indicates the model’s explanatory power.
-- **MSE** helps understand the average squared difference between predicted and actual prices.
+After training a linear regression model, the following metrics were observed:
+
+- **R-squared**: `0.445` – Indicates that approximately 44.5% of the variability in car prices is explained by the model.
+- **Mean Squared Error (MSE)**: `0.0257` – Represents the average squared difference between predicted and actual prices.
+
+These values suggest the model captures some key trends but may benefit from further optimization (e.g., feature engineering or using more advanced algorithms).
 
 ## 🚀 Getting Started
 
