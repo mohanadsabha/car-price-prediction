@@ -20,16 +20,8 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split
 # Min-max scling
 from sklearn.preprocessing import MinMaxScaler
-# Statsmodel
-import statsmodels.api as sm
-# VIF
-from statsmodels.stats.outliers_influence import variance_inflation_factor
 #R-squared
 from sklearn.metrics import r2_score
-# Label encoding
-from sklearn.preprocessing import LabelEncoder
-# Importing RFE
-from sklearn.feature_selection import RFE
 # Importing LinearRegression
 from sklearn.linear_model import LinearRegression
 # Importing MSE
